@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Contato - CupMania</title>
+    <link href="../css/contatos.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            height: 100vh;
+            background-color: white;
+            background-image: url(../imagens/cup3.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><img src="../imagens/logo1.jpg" /></div><!--logo-->
+            <div class="menu">
+                <a href="../index.html">
+                    <h2><span style="color: black;">Home</span> </h2>
+                </a>
+            </div><!--menu-->
+        </div>
+    </header>
+
+    <section class="sobre">
+        <section class="texto-contato">
+            <h2>Entre em Contato</h2>
+            <p>Estamos felizes em ouvir de você! Se você tiver perguntas, sugestões ou apenas quiser dizer olá, use o
+                formulário abaixo ou entre em contato conosco diretamente pelos meios de comunicação fornecidos.</p>
+        </section>
+
+        <section class="formulario-contato">
+            <form action="../php/processa_contato.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section class="informacoes-contato">
+            <h3>Informações de Contato</h3>
+            
+                <strong>Endereço:</strong> Av. dos Cupcakes, 123<br>
+                <strong>Telefone:</strong> (12) 9 8888-8888<br>
+                <strong>Email:</strong> contato@cupmania.com
+            
+        </section>
+
+        <footer>
+            <h4>&copy; 2023 CupMania. Todos os direitos reservados.</h4>
+        </footer>
+
+
+    </section>
+
+</body>
+
+</html>

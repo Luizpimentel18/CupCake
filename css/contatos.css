@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.center {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 90%;
+    text-align: right;
+    z-index: 10;
+}
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario-contato label,
+.formulario-contato textarea,
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"],
+.formulario-contato button {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: brown;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.informacoes-contato p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.sobre h2{
+    font-size: 30px;
+    text-align: left;
+    color: brown;
+    flex-wrap: wrap;
+}
+
+.sobre p {
+    line-height: 1.5;
+    flex-wrap: wrap;
+    /* Define a altura da linha para melhor legibilidade */
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: -10px 5px 3px rgb(70, 63, 63);
+}

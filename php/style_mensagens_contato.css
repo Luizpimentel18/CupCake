@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid brown;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    line-break: auto;
+    font-weight: bold;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-break: auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}

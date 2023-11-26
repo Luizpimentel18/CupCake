@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 23%;
+    margin: 1%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid brown;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    /* Limpa as floats */
+}
+
+
+.product img {
+    width: 100%;
+    /* Garante que a imagem ocupe 100% da largura do contêiner */
+    height: 120px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Mantém a proporção da imagem e corta para caber */
+    margin-bottom: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.product h3 {
+    font-size: 0.8em;
+    /* Tamanho menor para evitar que o texto ultrapasse a borda */
+    color: brown;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* Adiciona reticências (...) para indicar que o texto foi cortado */
+}
+
+.product p {
+    font-size: 1em;
+    color: brown;
+    margin: 0;
+}
+
+.product .price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: brown;
+    margin-top: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    margin-top: 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-break: auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: brown;
+
+}
+
+h4 :hover {
+    color: rgb(197, 95, 95);
+}

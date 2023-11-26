@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    font-weight: bold;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: brown;
+    font-weight: bold
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 1.1em;
+    }
+
+input[type="file"]:hover {
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #964B00;
+}
+
+a {
+    margin-top: 200px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-break: auto;
+    cursor: pointer;
+    font-weight: bold;
+}

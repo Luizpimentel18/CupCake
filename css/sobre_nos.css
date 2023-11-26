@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 10%;
+}
+
+.extras h1 {
+    text-align: center;
+    color: brown;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 90%;
+    text-align: right;
+    z-index: 10;
+}
+
+
+.menu a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.extras h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.texto-sobre {
+    max-width: 800px;
+    /* Define a largura máxima da div */
+    margin: 0 auto;
+    /* Centraliza a div na página */
+    padding: 20px;
+    /* Adiciona um espaço interno de 20 pixels à div */
+}
+
+#historia,
+#missao,
+#compromisso,
+#conhecer {
+    margin-bottom: 30px;
+    /* Adiciona um espaço entre as seções */
+}
+
+
+.sobre h2{
+    font-size: 30px;
+    text-align: left;
+    color: brown;
+    flex-wrap: wrap;
+}
+
+.sobre p {
+    line-height: 1.5;
+    flex-wrap: wrap;
+    /* Define a altura da linha para melhor legibilidade */
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: -10px 5px 3px rgb(70, 63, 63);
+}
+

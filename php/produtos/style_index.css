@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 23%;
+    margin: 1%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid brown;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    /* Limpa as floats */
+}
+
+td {
+    
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-break: auto;
+    font-weight: bold;
+}
+
+.product img {
+    width: 100%;
+    /* Garante que a imagem ocupe 100% da largura do contêiner */
+    height: 120px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Mantém a proporção da imagem e corta para caber */
+    margin-bottom: 10px;
+    display: block;
+}
+
+.product h2 {
+    font-size: 1em;
+    /* Tamanho menor para evitar que o texto ultrapasse a borda */
+    color: brown;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* Adiciona reticências (...) para indicar que o texto foi cortado */
+    font-weight: bold;
+}
+
+.product p {
+    font-size: 1em;
+    color: brown;
+    margin: 0;
+    font-weight: bold;
+}
+
+.product .price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: brown;
+    margin-top: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    margin-top: 20px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-break: auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
